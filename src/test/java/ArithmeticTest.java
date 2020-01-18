@@ -19,4 +19,10 @@ public class ArithmeticTest {
 
         Assert.assertEquals(10,actual);
     }
+
+    @Test
+    public void subtract() {
+        int actual = arithmetic.subtract(8,4);
+        Assert.assertEquals(4,actual);
+    }
 }
